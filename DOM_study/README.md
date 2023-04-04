@@ -1,6 +1,10 @@
 ## getBoundingClientRect() 
 
-<img  src="" width="300px" height="400px">
+getBoundingClientRect()은 자바스크립트에서 사용하는 메서드 중 하나로, 웹 페이지 상의 특정 요소의 크기와 위치에 관한 바운딩 사각형 정보를 제공하는 DOMRect 객체를 반환합니다.
+
+이 메서드는 top, bottom, left, right, width, height 등과 같은 속성을 포함하는 DOMRect 객체를 반환합니다.
+
+이 메서드는 요소의 크기와 위치를 상대적으로 가져올 수 있어, 요소의 위치를 계산하고 이동시키는 등의 작업에 유용하게 사용됩니다.
 
 <br>
 
