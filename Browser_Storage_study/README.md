@@ -15,6 +15,7 @@
 <br>
 [Cookie(modernJs)](https://ko.javascript.info/cookie)
 
+
    - 키-값 저장소 ( 상대적으로 간단한 스토리지)
    - 미래의 어떤 시점에 데이터가 만료되게 하여 자동으로 삭제 가능 
    - 로컬 스토리지보다 사용하기에 약간 투박하지만 작업하기 좋은 API 보유 
