@@ -1,0 +1,1 @@
+!function(){const t=document.querySelector("button"),o=document.querySelector("p");t.addEventListener("click",(()=>{const t=o.textContent;navigator.clipboard&&navigator.clipboard.writeText(t).then((t=>{console.log(t);})).catch((t=>{console.log(t);}));}));}();
