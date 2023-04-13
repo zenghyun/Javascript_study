@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Share a Place</title>
+    <link rel="stylesheet" href="./styles/app.css" />
+    <link rel="stylesheet" href="./styles/share-place.css" />
+    <script 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBb-rReNUeMH27EEf1Rb2N1dJ5Cgarhkf8"
+    async defer>
+</script>
+    <script src="./SharePlace.js" type="module" defer></script>
+  </head>
+  <body>
+    <template id="modal-template">
+      <div class="backdrop"></div>
+      <div class="modal"></div>
+    </template>
+    <template id="loading-modal-content">
+      <div class="modal__content centered">
+        <div class="lds-dual-ring"></div>
+      </div>
+    </template>
+
+    <header>
+      <h1>Share a Place!</h1>
+    </header>
+
+    <section id="selected-place">
+      <div id="map">
+        <p>
+          <mark>내 위치 얻기</mark> 버튼을 클릭해보세요!
+        </p>
+      </div>
+    </section>
+
+    <section id="share-controls">
+      <input
+        id="share-link"
+        type="text"
+        readonly
+        value="Select a place to get a sharable location."
+      />
+      <button id="share-btn" disabled>주소 공유</button>
+    </section>
+
+    <section id="place-data">
+      <form>
+        <label for="address">주소</label>
+        <input type="text" />
+        <button type="submit">위치 찾기</button>
+      </form>
+      <button id="locate-btn">내 위치 얻기</button>
+    </section>
+  </body>
+</html>
