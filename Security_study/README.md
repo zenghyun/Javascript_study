@@ -78,3 +78,5 @@ innerHTML과 같이 CSRF의 위험이 있는 곳에 **sanitizeHtml(검사할 것
 - Request are only allowed from same origin (domain)
 - Controlled via server-side response headers and browser
 - Example: JavaScript Modules
+
+
