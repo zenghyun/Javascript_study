@@ -80,3 +80,7 @@ innerHTML과 같이 CSRF의 위험이 있는 곳에 **sanitizeHtml(검사할 것
 - Example: JavaScript Modules
 
 
+
+
+## 참고 
+[Security of JavaScript Applications](https://dhtmlx.medium.com/security-of-javascript-applications-1c95cd2ce533)
