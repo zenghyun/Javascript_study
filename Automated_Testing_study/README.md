@@ -15,5 +15,9 @@
   - Full Flow ( e.g. validating a the DOM after a click)
 
 
-[Jest](https://jestjs.io/)
+[Jest 공식 사이트](https://jestjs.io/)
 [Mocks](https://www.harrymt.com/blog/2018/04/11/stubs-spies-and-mocks-in-js.html)
+
+
+[Jest란?](https://despiteallthat.tistory.com/190)
+[Puppeteer란?](https://despiteallthat.tistory.com/191)
