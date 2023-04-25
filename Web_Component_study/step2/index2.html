@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Components</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      html {
+        --color-primary: #a4fcda;
+      }
+
+    </style>
+    <script src="tooltip.js"></script>
+    <script src="confirm-lint.js"></script>
+  </head>
+  <body>
+    <!-- <template id="tooltip-template"> -->
+    <!-- <slot></slot>
+        <span> (?)</span>
+    </template> -->
+    <p>
+      <zh-tooltip class="important" text="Web Components is a set of standard."
+        ><span class="highlight">Web Components</span></zh-tooltip
+      >
+      are awesome!
+    </p>
+    <zh-tooltip></zh-tooltip>
+    <div>This does not get the web component styles!</div>
+    <a is="zh-confirm-link" href="https://www.google.com">Google</a>
+  </body>
+</html>
